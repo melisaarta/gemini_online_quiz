@@ -1,17 +1,47 @@
-# gemini_online_quiz
+# Gemini Online Quiz App (Flutter)
 
-A new Flutter project.
+Aplikasi **Kuis Online berbasis Flutter** yang memanfaatkan **Gemini AI** untuk menghasilkan soal secara dinamis berdasarkan **kategori** dan **tingkat kesulitan** (Easy, Medium, Hard).
+Aplikasi ini dibuat sebagai bagian dari pembelajaran **Pemrograman Bergerak (Flutter)** dan eksplorasi integrasi **AI Generatif** dalam aplikasi mobile.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- Pilihan kategori kuis
+- Level soal: Easy, Medium, Hard
+- Soal dibuat otomatis oleh **Gemini AI**
+- Pilihan ganda (A–D)
+- Perhitungan skor otomatis
+- Pembahasan jawaban (benar & salah)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tampilan Aplikasi
+
+> Berikut adalah beberapa tampilan utama aplikasi:
+
+### Halaman Kategori
+![Kategori](screenshots/screen1.png)
+
+### Pilih Level & Mulai Kuis
+![Level](screenshots/screen2.png)
+
+### Halaman Soal Kuis
+![Quiz](screenshots/screen3.png)
+
+### Hasil & Pembahasan
+![Result](screenshots/screen4.png)
+
+---
+
+## Konfigurasi Gemini API Key
+
+Aplikasi ini **TIDAK menyertakan Gemini API key di dalam repository** demi keamanan.
+
+### Cara Mengisi API Key
+
+Buka file berikut: lib/page/quiz_page.dart
+Temukan kode:
+
+```dart
+QuizService(apiKey: 'GEMINI_API_KEY');

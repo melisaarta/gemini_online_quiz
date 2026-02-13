@@ -34,22 +34,6 @@ Aplikasi ini dibuat sebagai bagian dari pembelajaran **Pemrograman Bergerak (Flu
 
 ---
 
-## Struktur Project
-lib/
-│
-├── model/
-│ └── model_question.dart
-│
-├── services/
-│ └── quiz_service.dart
-│
-├── page/
-│ ├── category_page.dart
-│ ├── quiz_page.dart
-│ └── result_page.dart
-│
-└── main.dart
-
 ## Konfigurasi Gemini API Key
 
 Aplikasi ini **TIDAK menyertakan Gemini API key di dalam repository** demi keamanan.

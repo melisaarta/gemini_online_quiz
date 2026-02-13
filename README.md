@@ -10,7 +10,7 @@ Aplikasi ini dibuat sebagai bagian dari pembelajaran **Pemrograman Bergerak (Flu
 - Pilihan kategori kuis
 - Level soal: Easy, Medium, Hard
 - Soal dibuat otomatis oleh **Gemini AI**
-- Pilihan ganda (A–D)
+- Pilihan ganda (A-D)
 - Perhitungan skor otomatis
 - Pembahasan jawaban (benar & salah)
 
@@ -40,8 +40,7 @@ Aplikasi ini **TIDAK menyertakan Gemini API key di dalam repository** demi keama
 
 ### Cara Mengisi API Key
 
-Buka file berikut: lib/page/quiz_page.dart
-Temukan kode:
+Buka file berikut: lib/page/quiz_page.dart dan temukan kode:
 
 ```dart
 QuizService(apiKey: 'GEMINI_API_KEY');
